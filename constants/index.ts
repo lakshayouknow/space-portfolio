@@ -296,6 +296,27 @@ export const PROJECTS = [
     image: "/projects/project-3.png",
     link: "https://example.com",
   },
+  {
+    title: "Interactive Data Visualization Platform",
+    description:
+      'Built a comprehensive data visualization platform using Python, Plotly, and React. Enables users to upload datasets, create interactive charts, perform statistical analysis, and export custom reports. Features real-time updates, collaborative dashboards, and advanced filtering capabilities.',
+    image: "/projects/project-4.png",
+    link: "https://example.com",
+  },
+  {
+    title: "Predictive ML Model Engine",
+    description:
+      'Developed a machine learning model for predictive analytics using scikit-learn and TensorFlow. Includes data preprocessing, feature engineering, model training, and API endpoints for real-time predictions. Features model versioning, performance metrics, and automated retraining pipelines.',
+    image: "/projects/project-5.png",
+    link: "https://example.com",
+  },
+  {
+    title: "Business Intelligence Suite",
+    description:
+      'Created an enterprise BI solution with Power BI and SQL. Connects to multiple data sources, creates automated reports, tracks KPIs, and generates actionable business insights. Includes dashboard design, data modeling, and performance optimization.',
+    image: "/projects/project-6.png",
+    link: "https://example.com",
+  },
 ] as const;
 
 export const FOOTER_DATA = [
