@@ -20,10 +20,10 @@ export const Navbar = () => {
           <Image
             src="/logo.png"
             alt="Lakshay Swami Logo"
-            width={120}
-            height={50}
+            width={160}
+            height={60}
             draggable={false}
-            className="cursor-pointer"
+            className="cursor-pointer h-auto invert"
             priority
           />
         </Link>
