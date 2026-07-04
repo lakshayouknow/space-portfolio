@@ -90,32 +90,26 @@ export const SKILL_DATA = [
 
 export const SOCIALS = [
   {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/lakshayouknow",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://linkedin.com/in/lakshay-swami",
   },
   {
-    name: "Twitter",
+    name: "Email",
     icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    link: "mailto:swamilakshay464@gmail.com",
   },
 ] as const;
 
 export const FRONTEND_SKILL = [
   {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
+    skill_name: "Python",
+    image: "python.png",
     width: 80,
     height: 80,
   },
@@ -126,14 +120,32 @@ export const FRONTEND_SKILL = [
     height: 65,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    skill_name: "Java",
+    image: "java.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Material UI",
-    image: "mui.png",
+    skill_name: "Kotlin",
+    image: "kotlin.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "C",
+    image: "c.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "C++",
+    image: "cpp.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "SQL",
+    image: "sql.png",
     width: 80,
     height: 80,
   },
@@ -144,25 +156,13 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "TypeScript",
     image: "ts.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Next.js 14",
+    skill_name: "Next.js",
     image: "next.png",
     width: 80,
     height: 80,
@@ -171,16 +171,22 @@ export const FRONTEND_SKILL = [
 
 export const BACKEND_SKILL = [
   {
-    skill_name: "Node.js",
-    image: "node.png",
+    skill_name: "Pandas",
+    image: "pandas.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Express.js",
-    image: "express.png",
+    skill_name: "NumPy",
+    image: "numpy.png",
     width: 80,
     height: 80,
+  },
+  {
+    skill_name: "MySQL",
+    image: "mysql.png",
+    width: 70,
+    height: 70,
   },
   {
     skill_name: "MongoDB",
@@ -195,26 +201,20 @@ export const BACKEND_SKILL = [
     height: 55,
   },
   {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
+    skill_name: "Power BI",
+    image: "powerbi.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "MySQL",
-    image: "mysql.png",
+    skill_name: "n8n",
+    image: "n8n.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
+    skill_name: "Docker",
+    image: "docker.png",
     width: 80,
     height: 80,
   },
@@ -222,24 +222,23 @@ export const BACKEND_SKILL = [
 
 export const FULLSTACK_SKILL = [
   {
-    skill_name: "React Native",
-    image: "reactnative.png",
+    skill_name: "Git",
+    image: "git.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
+    skill_name: "GitHub",
+    image: "github.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "Docker",
-    image: "docker.png",
+    skill_name: "OpenAI API",
+    image: "openai.png",
     width: 70,
     height: 70,
   },
-
   {
     skill_name: "Figma",
     image: "figma.png",
@@ -250,8 +249,26 @@ export const FULLSTACK_SKILL = [
 
 export const OTHER_SKILL = [
   {
-    skill_name: "Go",
-    image: "go.png",
+    skill_name: "Postman",
+    image: "postman.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "Excel",
+    image: "excel.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "VS Code",
+    image: "vscode.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "Android Studio",
+    image: "androidstudio.png",
     width: 60,
     height: 60,
   },
@@ -259,23 +276,23 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "ProfitIQ — AI Dashboard",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      'An AI-powered business analytics dashboard that transforms raw Excel and CSV files into meaningful business insights. Features AI insights, data cleaning, dashboard generation, KPI cards, charts, correlation analysis, and an AI chat assistant built with Python, Pandas, NumPy, Machine Learning, and Data Visualization.',
     image: "/projects/project-1.png",
     link: "https://example.com",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Voice-Based AI Agent",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      'Developed an AI-powered voice assistant integrated with n8n automation workflows. Features speech recognition, AI responses, workflow automation, and API integration. This project showcases expertise in AI agent development and business process automation.',
     image: "/projects/project-2.png",
     link: "https://example.com",
   },
   {
-    title: "Space Themed Website",
+    title: "AI Chatbot Automation",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'Designed a chatbot capable of automating business workflows using OpenAI APIs and n8n. Features AI conversation, automation, email integration, webhooks, and API calls to streamline complex business processes.',
     image: "/projects/project-3.png",
     link: "https://example.com",
   },
@@ -286,59 +303,59 @@ export const FOOTER_DATA = [
     title: "Community",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/lakshayouknow",
       },
       {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
-    ],
-  },
-  {
-    title: "Social Media",
-    data: [
-      {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        name: "LinkedIn",
+        icon: RxLinkedinLogo,
+        link: "https://linkedin.com/in/lakshay-swami",
       },
       {
         name: "Twitter",
         icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://x.com",
       },
     ],
   },
   {
-    title: "About",
+    title: "Services",
     data: [
       {
-        name: "Become Sponsor",
+        name: "AI Automation",
         icon: null,
-        link: "https://youtube.com",
+        link: "#about-me",
       },
       {
-        name: "Learning about me",
+        name: "Data Analytics",
         icon: null,
-        link: "https://example.com",
+        link: "#about-me",
       },
       {
-        name: "Contact Me",
+        name: "Dashboard Development",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "#about-me",
+      },
+    ],
+  },
+  {
+    title: "Contact",
+    data: [
+      {
+        name: "Email",
+        icon: null,
+        link: "mailto:swamilakshay464@gmail.com",
+      },
+      {
+        name: "About Me",
+        icon: null,
+        link: "#about-me",
+      },
+      {
+        name: "View Projects",
+        icon: null,
+        link: "#projects",
       },
     ],
   },
