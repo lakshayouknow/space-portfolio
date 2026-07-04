@@ -38,8 +38,20 @@ export const SkillDataProvider = ({
       animate={inView ? "visible" : "hidden"}
       custom={index}
       transition={{ delay: index * animationDelay }}
+      className="flex items-center justify-center"
     >
-      <Image src={`/skills/${src}`} width={width} height={height} alt={name} />
+      <Image 
+        src={`/skills/${src}`} 
+        width={width} 
+        height={height} 
+        alt={name}
+        priority={false}
+        loading="lazy"
+        onError={(e) => {
+          console.log(`[v0] Failed to load image: /skills/${src}`);
+          e.currentTarget.style.display = 'none';
+        }}
+      />
     </motion.div>
   );
 };
