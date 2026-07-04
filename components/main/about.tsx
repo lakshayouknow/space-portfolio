@@ -29,9 +29,9 @@ export const About = () => {
         <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-cyan-500 mx-auto rounded-full mt-4"></div>
       </motion.div>
 
-      {/* Main Content Grid */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 mb-20">
-        {/* Left Column - Career Objective */}
+      {/* Main Content - Single Column */}
+      <div className="max-w-6xl mx-auto w-full mb-20 flex flex-col gap-10 lg:gap-16">
+        {/* Career Objective - Top */}
         <motion.div
           variants={slideInFromLeft(0.2)}
           initial="hidden"
@@ -74,9 +74,9 @@ export const About = () => {
           </div>
         </motion.div>
 
-        {/* Right Column - Professional Summary */}
+        {/* Professional Summary - Below */}
         <motion.div
-          variants={slideInFromRight(0.2)}
+          variants={slideInFromLeft(0.3)}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
