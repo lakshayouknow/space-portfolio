@@ -25,7 +25,7 @@ export const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
+          <div className="hidden md:flex md:font-bold ml-[10px] text-gray-300">Lakshay Swami</div>
         </Link>
 
         {/* Web Navbar */}
